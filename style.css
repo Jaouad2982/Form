@@ -7,9 +7,9 @@
 }
 
 .paragraph {
-  color: #0d0e0e;
   font-family: "Times New Roman", sans-serif;
   font-size: 16px;
+  color: #424646;
   letter-spacing: 1px;
   font-weight: 700;
   background-color: #f9fafb;
@@ -86,7 +86,18 @@ input:focus {
 }
 
 .label-inputs {
+  margin-top: 14px;
   width: 70%;
+}
+
+.label-inputs input {
+  margin: 4px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 14px;
+  color: #424646;
 }
 
 .form {
@@ -117,7 +128,7 @@ input:focus {
   padding: 6px;
   border-radius: 6px;
   width: 12%;
-  background-color: #bf937a;
+  background-color: #d0b8ab;
   color: #f9fafb;
   border: 1px solid #f9fafb;
   width: 75%;
@@ -126,6 +137,10 @@ input:focus {
 .div-btn {
   margin-top: 34px;
   background-color: #f9fafb;
-  height: 322px;
+  height: 250px;
   width: 100%;
+}
+
+.footer-paragraph {
+  color: #424646;
 }
