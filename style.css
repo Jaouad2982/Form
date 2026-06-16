@@ -1,0 +1,97 @@
+/* colors : #0d0e0e  #ffffff  #596d48  #f9fafb  #100500  #283f45  #b1aca4  #df8103*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.paragraph {
+  color: #0d0e0e;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background-color: #f9fafb;
+  padding: 60px;
+}
+
+.form-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 14px;
+}
+
+.form-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+input {
+  width: 100%;
+  border-radius: 5px;
+  padding: 4px;
+  outline: none;
+  background-color: #f9fafb;
+  border-color: #f9fafb;
+  border: 1px solid transparent;
+}
+
+input:focus {
+  color: #bf937a;
+}
+
+.label-inputs {
+  width: 70%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image {
+  align-self: flex-start;
+}
+
+.pspanfooter {
+  display: flex;
+  gap: 14px;
+}
+
+.pspanfooter > span {
+  color: #bf937a;
+}
+
+.footerBtn {
+  position: absolute;
+  background-color: #f9fafb;
+
+  overflow: hidden;
+}
+
+.btn {
+  padding: 6px;
+  border-radius: 6px;
+  width: 12%;
+  background-color: #bf937a;
+  color: #f9fafb;
+  border: 1px solid #f9fafb;
+  width: 75%;
+}
+
+.div-btn {
+  background-color: #f9fafb;
+  height: 350px;
+  width: 100%;
+}
